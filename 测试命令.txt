@@ -1,0 +1,6 @@
+1.²âÊÔindexµÄÃüÁî£º
+	python index.py --dataset images --index index.cpickle
+2.²âÊÔsearchµÄÃüÁî£º
+	python search.py --dataset images --index index.cpickle
+3.²âÊÔsearch_externalµÄÃüÁî£º
+	python search_external.py --dataset images --index index.cpickle  --query queries/Spur-004.png
